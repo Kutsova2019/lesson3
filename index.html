@@ -6,11 +6,17 @@
 </head>
 <body>
 	<script>
-		let max = +prompt('Введите число'), triangle = "";
-		for (i=0; i<max; i++){
+		var star = +prompt("Введите число", ""); 
+		var triangle = "";
+		var res = "";
+		
+		for(i = 0; i < star; i++){
     	triangle += "*";
-    		console.log(triangle);
+    	res += '\n' + triangle;
 		}
+		
+		console.log(res);
 	</script>
 </body>
 </html>
+
